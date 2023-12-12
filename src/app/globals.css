@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .gen-container{
+    @apply bg-white py-12 px-2
+  }
+
+  .title{
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  .Navbar-list {
+    text-align: center;
+  }
+  .Navbar-list .list{
+    margin: 10px;
+    padding: 10px;
+    transition: all .5s linear;
+  }
+  .Navbar-list .list .anchor {
+    display: block; 
+    @apply text-yellow-600
+  }
+  .Navbar-list .list:hover {
+    @apply bg-yellow-700 text-white;
+  }       
+}
