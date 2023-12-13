@@ -1,7 +1,8 @@
 'use client'
 import React from 'react'
+import { MouseEvent } from 'react';
 import { Bars3Icon } from '@heroicons/react/24/outline'
-const Burger = ({ handleToggle }) => {
+const Burger = ({ handleToggle }: MouseEvent<HTMLFormElement>) => {
 
   return (
     <div className='bg-yellow-600 p-2 rounded' onClick={ ()=> { handleToggle() } }>
