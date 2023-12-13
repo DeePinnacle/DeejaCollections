@@ -40,7 +40,7 @@ const contactpage = () => {
         </div>
         <div className='p-2'>
           <h2 className='text-yellow-600 font-extralight text-xl mb-4'>Contact Us</h2>
-          <p className='text-white mb-3'>We are active 24/7, take out time to contact us. We're readily available and open for business.</p>
+          <p className='text-white mb-3'>We are active 24/7, take out time to contact us. We`&apos`re readily available and open for business.</p>
           <div className='p-2 flex flex-row align-middle gap-3'>
             <MapPinIcon className='h-5 w-5 text-white' />
             <p className='text-white'>Kubwa Phase 4, federal housing kubwa Abuja.</p>
