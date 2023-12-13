@@ -4,7 +4,7 @@ import { Bars3Icon } from '@heroicons/react/24/outline'
 type ButtonProps = {
   handleToggle: ()=> void;
 }
-const Burger = ({ handleToggle }:handleToggle) => {
+const Burger = ({ handleToggle }:ButtonProps) => {
 
   return (
     <div className='bg-yellow-600 p-2 rounded' onClick={ ()=> { handleToggle() } }>
