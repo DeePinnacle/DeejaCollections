@@ -11,9 +11,9 @@ const Navbar = () => {
             <li className="list">
                 <Link href="/#Home" className='anchor'>Home</Link>
             </li>
-            <li className="list">
-              <Link href="/#About" className='anchor'>About</Link>
-            </li>
+              <Link href="/#About" className='anchor'>
+                <li className='list'>About</li>
+              </Link>
             <li className="list">                
               <Link href="/#Services" className='anchor'>Services</Link>
             </li>
