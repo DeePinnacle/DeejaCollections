@@ -26,7 +26,7 @@ const Benefits = () => {
                     <div className='bg-white p-2 my-3 shadow-sm rounded-md md:mx-auto'>
                         <ClockIcon className='h-28 w-20 mx-auto' />
                         <h2 className='text-center font-bold text-lg my-3'>Fast Delivery</h2>
-                        <p className='text-center'>Our deliveries are top notch and one of it's kind, getting customers products to them on time has always been our priority.</p>
+                        <p className='text-center'>Our deliveries are top notch and one of it`&apos`s kind, getting customers products to them on time has always been our priority.</p>
                         <div className='bg-black p-2 rounded-full my-3'>
                             <p className='text-white text-center'>No Delays</p>
                         </div>
